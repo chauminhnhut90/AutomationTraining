@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6b4c48c-4d04-4527-a7f5-942dc6c66ae7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AutomationTraining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/AutomationTraining.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ant-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ant-launcher-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bsh-2.0b4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bson-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-nodep-3.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/client-combined-3.4.0-nodeps.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-exec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cssparser-0.9.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/extentreports-2.41.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/guava-21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/htmlunit-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/htmlunit-core-js-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/htmlunit-driver-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpmime-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jcommander-1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-io-9.4.1.v20170120.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-util-9.4.1.v20170120.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jna-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jna-platform-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mail-1.5.0-b01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mongodb-driver-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mongodb-driver-core-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/neko-htmlunit-2.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/phantomjsdriver-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sac-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-chrome-driver-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-html-runner-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-server-standalone-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/serializer-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/snakeyaml-1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.8.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/testng-6.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/websocket-api-9.4.3.v20170317.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/websocket-client-9.4.3.v20170317.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/websocket-common-9.4.3.v20170317.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xalan-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xercesImpl-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml-apis-1.4.01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/.idea/AutomationTraining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/.idea/libraries/AutomationTraining.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/AutomationTraining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/ant-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/ant-launcher-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/bsh-2.0b4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/bson-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/cglib-nodep-3.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/client-combined-3.4.0-nodeps.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/commons-exec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/commons-lang3-3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/cssparser-0.9.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/extentreports-2.41.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/guava-21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/hamcrest-core-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/htmlunit-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/htmlunit-core-js-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/htmlunit-driver-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/httpmime-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/jcommander-1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/jetty-io-9.4.1.v20170120.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/jetty-util-9.4.1.v20170120.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/jna-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/jna-platform-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/jsoup-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/mail-1.5.0-b01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/mongodb-driver-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/mongodb-driver-core-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/neko-htmlunit-2.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/phantomjsdriver-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/sac-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/selenium-chrome-driver-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/selenium-html-runner-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/selenium-server-standalone-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/serializer-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/snakeyaml-1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/sqlite-jdbc-3.8.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/testng-6.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/websocket-api-9.4.3.v20170317.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/websocket-client-9.4.3.v20170317.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/websocket-common-9.4.3.v20170317.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/xalan-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/xercesImpl-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutomationTraining/lib/xml-apis-1.4.01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="549085789">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="725" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="725" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AutomationTraining" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages PackagesPane="false" />
+      <showMembers PackagesPane="true" ProjectPane="false" />
+      <foldersAlwaysOnTop value="false" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTraining" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutomationTraining" type="58d84e3e:PackageViewProjectNode" />
+              <item name="AutomationTraining" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540193870947" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xml-apis-1.4.01.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AutomationTraining" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: AutomationTraining" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AutomationTraining" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: AutomationTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.All Features in: AutomationTraining" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Cucumber java.All Features in: AutomationTraining" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6b4c48c-4d04-4527-a7f5-942dc6c66ae7" name="Default Changelist" comment="" />
+      <created>1539936140057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539936140057</updated>
+      <workItem from="1539936151931" duration="818000" />
+      <workItem from="1539937029975" duration="1055000" />
+      <workItem from="1539938158771" duration="765000" />
+      <workItem from="1539940382247" duration="790000" />
+      <workItem from="1539942612240" duration="1038000" />
+      <workItem from="1540188540009" duration="5303000" />
+      <workItem from="1540354483307" duration="590000" />
+      <workItem from="1540355114522" duration="3281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13640000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4863124" visible="true" weight="0.17170954" />
+      <window_info id="Structure" order="1" sideWeight="0.5136876" side_tool="true" visible="true" weight="0.17170954" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50442475" side_tool="true" weight="0.2496112" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22383253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6425121" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.50088495" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AutomationTraining.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AutomationTraining</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>AutomationTraining</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
