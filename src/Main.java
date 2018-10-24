@@ -14,13 +14,12 @@ public class Main {
         //find element
         WebElement element = ((ChromeDriver) driver).findElementById("username");
         //Do action
-        element.sendKeys("top0000000");
+        element.sendKeys("0000000");
 
         WebElement password = ((ChromeDriver) driver).findElementById("password");
-        password.sendKeys("123456");
+        password.sendKeys("12345678");
 
-        //find
-        WebElement okbtn = ((ChromeDriver) driver).findElementByXPath("//*[@id=\"app\"]/div/div/section/div/div/div/a/span");
+         WebElement okbtn = ((ChromeDriver) driver).findElementByXPath("//*[@id=\"app\"]/div/div/section/div/div/div/a/span");
         okbtn.click();
 
     }
