@@ -12,9 +12,9 @@ public class Main {
         driver.get("http://qa.7sports.co");
         driver.manage().window().maximize();
 
-        WebElement Language= ((ChromeDriver) driver).findElementByXPath("//*[@id=\"app\"]/div/div/section/div/div/div/div[1]/select");
+       /* WebElement Language= ((ChromeDriver) driver).findElementByXPath("//*[@id=\"app\"]/div/div/section/div/div/div/div[1]/select");
         Select dropdown= new Select(Language);
-        dropdown.selectByVisibleText("English");
+        dropdown.selectByVisibleText("English");*/
 
         //Find element & do action
         WebElement user= ((ChromeDriver) driver).findElementById("username");
