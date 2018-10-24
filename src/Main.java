@@ -13,7 +13,7 @@ public class Main {
         WebDriver driver = new ChromeDriver();
 
         // Navigate chrome to this address
-        driver.get("http://dev.7sports.co");
+        // driver.get("http://dev.7sports.co");
 
         /*
         * 2 important step when working with selenium
@@ -27,7 +27,7 @@ public class Main {
         WebElement userName = ((ChromeDriver) driver).findElementById("username");
 
         // Do action on element Username
-        userName.sendKeys("titeo");
+        // userName.sendKeys("titeo");
 
 
         WebElement passWord = ((ChromeDriver) driver).findElementById("password");
