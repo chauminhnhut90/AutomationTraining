@@ -27,7 +27,7 @@ public class Main {
         WebElement userName = ((ChromeDriver) driver).findElementById("username");
 
         // Do action on element Username
-        userName.sendKeys("titeo");
+        userName.sendKeys("titeotiti");
 
 
         WebElement passWord = ((ChromeDriver) driver).findElementById("password");
