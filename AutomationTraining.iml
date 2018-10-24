@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="true" />
-    ///abc
-  </component>
-</module>
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
+public class Main {
+
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "D:\\Quynh\\chromedriver_win32\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://stag.7sports.co");
+
+
+    //By pathUser = By.id("username");
+    WebElement element = ((ChromeDriver)driver).findElementById("username");
+    element.sendKeys("sup090000001");
+
+    WebElement element1 = ((ChromeDriver)driver).findElementById("password");
+    element1.sendKeys("1234567");
+
+    WebElement element331 = ((ChromeDriver)driver).findElementByXPath("//*[@id='app']/div/div/section/div/div/div/a/span");
+        element331.click();
+        //abc
+}
+}
