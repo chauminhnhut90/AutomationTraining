@@ -1,8 +1,14 @@
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import javax.rmi.CORBA.Util;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
@@ -14,6 +20,7 @@ public class Main {
         // Create new chrome drive (after this below code, a chrome will be created)
         WebDriver driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(1600, 900));
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         // Navigate chrome to this address
         driver.get("http://stag.7sports.co");
@@ -45,7 +52,7 @@ public class Main {
         WebElement userName = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='USERNAME']");
 
         // Do action on element Username
-        userName.sendKeys("qcAA02000");
+        userName.sendKeys("qcAA03000");
 
 
         WebElement passWord = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='PASSWORD']");
@@ -53,5 +60,31 @@ public class Main {
 
         WebElement login = ((ChromeDriver) driver).findElementByXPath("//span[text()='Sign-In']");
         login.click();
+
+        try {
+            Thread.sleep(10000);
+        }catch (Exception ex){}
+
+        // Step1: Click on ODD
+        WebElement oddElement = ((ChromeDriver) driver).findElementByXPath("//a[contains(@class,'periodName_0 betSideName_0')]");
+        oddElement.click();
+
+        // Step2: Enter Stake
+        WebElement stakeElement = ((ChromeDriver) driver).findElementById("stakeTicket");
+        stakeElement.sendKeys("10");
+
+        // Step3: Cick Place Bet
+        WebElement placbetElement = ((ChromeDriver) driver).findElementByXPath("//div[@id='existTicket'][not(@class='hide')]//span[text()='Place bet']");
+        placbetElement.click();
+
+
+        // More step: Close Alert popup
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.alertIsPresent());
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+
+        driver.quit();
+        System.exit(1);
     }
 }
