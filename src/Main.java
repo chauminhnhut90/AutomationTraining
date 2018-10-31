@@ -77,14 +77,16 @@ public class Main {
         WebElement placbetElement = ((ChromeDriver) driver).findElementByXPath("//div[@id='existTicket'][not(@class='hide')]//span[text()='Place bet']");
         placbetElement.click();
 
-
         // More step: Close Alert popup
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
         alert.accept();
 
+        // Close browser
         driver.quit();
+
+        // Exit program
         System.exit(1);
     }
 }
