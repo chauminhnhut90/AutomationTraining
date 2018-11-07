@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 @SuppressWarnings("all")
 public class TestNGScript {
 
-    @Test //Day dung cho test NG, can verify gi viet vo day
+    @Test(priority =3)
     public void verifyAboutUsPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/newuser/Documents/WebdriverChrome/chromedriver");
 
@@ -57,7 +57,7 @@ public class TestNGScript {
 
     //driver.get("https://stag.7sports.co/");
 
-    @Test //Day dung cho test NG, can verify gi viet vo day
+    @Test(priority = 2)
     public void verifyBettingRulePage() {
         System.setProperty("webdriver.chrome.driver", "/Users/newuser/Documents/WebdriverChrome/chromedriver");
 
@@ -93,7 +93,7 @@ public class TestNGScript {
 
     }
 
-    @Test //Day dung cho test NG, can verify gi viet vo day
+    @Test(priority = 1)
     public void verifyPrivacyPolicyPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/newuser/Documents/WebdriverChrome/chromedriver");
 
@@ -129,7 +129,11 @@ public class TestNGScript {
 
     }
 
-    @Test //Day dung cho test NG, can verify gi viet vo day
+    @Test
+    //muon chay song song, tao 1 folder suites trong file trong o dia, copy suite code dang vo file xml
+    //@Test(enabled = false) ko cho chay 1 case
+    //@Test(priority = 0) uu tien chay truoc
+    //Day dung cho test NG, can verify gi viet vo day
     public void verifyResponsibleGamblingPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/newuser/Documents/WebdriverChrome/chromedriver");
 
@@ -163,6 +167,11 @@ public class TestNGScript {
         Assert.assertTrue(result, "Do not display Responsible Gaming title");
 
 
+    }
+
+    @Test (dataProvider = "")
+    public void verifyLogin (String us, String pass){
+        
     }
 
 }
