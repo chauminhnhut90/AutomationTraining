@@ -18,6 +18,18 @@ public class LoginPage {
     @FindBy(xpath = "//span[text()='Sign-In']")
     public WebElement login;
 
+    @FindBy(xpath = "//span[text()='About Us']")
+    public WebElement aboutUs;
+
+    @FindBy(xpath = "//span[text()='Betting Rules']")
+    public WebElement bettingRules;
+
+    @FindBy(xpath = "//span[text()='Privacy Policy']")
+    public WebElement privatePolicy;
+
+    @FindBy(xpath = "//span[text()='Responsible Gambling']")
+    public WebElement responsibleGambling;
+
     WebDriver driver;
 
     // Khoi tao
@@ -46,5 +58,21 @@ public class LoginPage {
 
     public void clickLogin() {
         login.click();
+    }
+
+    public void clickAboutUs(){
+        aboutUs.click();
+    }
+
+    public void clickBettingRules(){
+        bettingRules.click();
+    }
+
+    public void clickPrivatePolicy(){
+        privatePolicy.click();
+    }
+
+    public void clickResponsibleGambling(){
+        responsibleGambling.click();
     }
 }
