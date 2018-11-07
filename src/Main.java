@@ -1,22 +1,51 @@
+package src;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.server.handler.SendKeys;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.TestNG;
+import src.HomePage;
+import src.LoginAgentPage;
+import src.LoginPage;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Kolabs1808002\\Downloads\\chromedriver_win32\\chromedriver.exe");
-        WebDriver driver= new ChromeDriver();
-        driver.get("http://7stag.win68.net/");
-        //Input Username
-        WebElement UserNameTxt = ((ChromeDriver) driver).findElementById("txtusername");
-        UserNameTxt.sendKeys("anh5");
-        //Input Password
-        WebElement PasswordTxt = ((ChromeDriver) driver).findElementById("txtpassword");
-        PasswordTxt.sendKeys("789987");
-        //Click Login Button
-        WebElement LoginButton = ((ChromeDriver) driver).findElementByXPath("/html/body/div/div/div/div/form/fieldset/button");
-        LoginButton.click();
 
+        TestNG testNG = new TestNG();
+
+        List<String> suites = new ArrayList<>();
+        suites.add("./suites/testng.xml");
+        testNG.setTestSuites(suites);
+
+        testNG.run();
+
+//        loginpage.InputUsername();
+//        loginpage.InputPassword();
+//        loginpage.ClickSignIn();
+//
+//        HomePage homepage = new HomePage(driver);
+//        homepage.SelectOdd();
+//        homepage.InputSteak();
+//        homepage.ClickPlaceBet();
+
+
+        //Agent site
+//        LoginAgentPage loginAgent = new LoginAgentPage(driver);
+//        loginAgent.Login();
+//
+//        AgentModulesPage modulesMenu = new AgentModulesPage(driver);
+//        modulesMenu.ClickModulesMenu();
+//        modulesMenu.openMaintenancePage();
+//        modulesMenu.selectSportsbookType();
+//        modulesMenu.selecteBetLiveCasinoType();
+//        modulesMenu.selectP2PlayType();
+//        modulesMenu.selectAllMaintenanceTypes();
     }
 }
