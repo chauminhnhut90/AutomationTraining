@@ -13,7 +13,6 @@ public class TestNGScript {
 
     @Test
     public void verifyAboutUsPage(){
-
         // SetUp Chrome drive Path
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
@@ -44,24 +43,16 @@ public class TestNGScript {
 
     @Test
     public void verifyBettingRulesPage(){
-
-        // SetUp Chrome drive Path
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
-        // Create new chrome drive (after this below code, a chrome will be created)
         WebDriver driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(1600, 900));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        // B1: navigate to lognPage
         LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         loginPage.selectLanguage();
-
-        // B2: Click on About Us button
         loginPage.clickBettingRules();
-
-        // B3: Check About US test display
 
         List<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
@@ -75,24 +66,16 @@ public class TestNGScript {
 
     @Test
     public void verifyPrivatePolicyPage(){
-
-        // SetUp Chrome drive Path
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
-        // Create new chrome drive (after this below code, a chrome will be created)
         WebDriver driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(1600, 900));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        // B1: navigate to lognPage
         LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         loginPage.selectLanguage();
-
-        // B2: Click on About Us button
         loginPage.clickPrivatePolicy();
-
-        // B3: Check About US test display
 
         List<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
@@ -107,23 +90,16 @@ public class TestNGScript {
     @Test
     public void verifyResponsibleGamblingPage(){
 
-        // SetUp Chrome drive Path
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
-        // Create new chrome drive (after this below code, a chrome will be created)
         WebDriver driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(1600, 900));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        // B1: navigate to lognPage
         LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         loginPage.selectLanguage();
-
-        // B2: Click on About Us button
         loginPage.clickResponsibleGambling();
-
-        // B3: Check About US test display
 
         List<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
