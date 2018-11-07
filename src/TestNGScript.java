@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class TestNGScript {
 
     @Test
-    public void verifyAboutUsPage(){
+    public void verifyAboutUsPage() {
         // SetUp Chrome drive Path
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
@@ -38,11 +38,11 @@ public class TestNGScript {
         String title = page.getTitle();
         boolean result = title.equals("About Us");
         driver.quit();
-        Assert.assertTrue(result,"Do not display ABOUT US title");
+        Assert.assertTrue(result, "Do not display ABOUT US title");
     }
 
     @Test
-    public void verifyBettingRulesPage(){
+    public void verifyBettingRulesPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
         WebDriver driver = new ChromeDriver();
@@ -61,11 +61,11 @@ public class TestNGScript {
         String title = page.getTitle();
         boolean result = title.equals("Betting Rules");
         driver.quit();
-        Assert.assertTrue(result,"Do not display BETTING RULES title");
+        Assert.assertTrue(result, "Do not display BETTING RULES title");
     }
 
     @Test
-    public void verifyPrivatePolicyPage(){
+    public void verifyPrivatePolicyPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
         WebDriver driver = new ChromeDriver();
@@ -84,11 +84,11 @@ public class TestNGScript {
         String title = page.getTitle();
         boolean result = title.equals("Privacy Policy");
         driver.quit();
-        Assert.assertTrue(result,"Do not display PRIVATE POLICY title");
+        Assert.assertTrue(result, "Do not display PRIVATE POLICY title");
     }
 
     @Test
-    public void verifyResponsibleGamblingPage(){
+    public void verifyResponsibleGamblingPage() {
 
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
@@ -108,7 +108,7 @@ public class TestNGScript {
         String title = page.getTitle();
         boolean result = title.equals("Responsible Gaming");
         driver.quit();
-        Assert.assertTrue(result,"Do not display RESPONSIBLE GAMING title");
+        Assert.assertTrue(result, "Do not display RESPONSIBLE GAMING title");
     }
 
 }
