@@ -3,6 +3,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.TestNG;
+import org.testng.collections.Lists;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,23 +13,42 @@ import java.util.concurrent.TimeUnit;
 public class Main {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/huy/Desktop/autohuy/chromedriver_win32/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        Login login1 = new Login(driver);
-        login1.Goto();
-        login1.Changelang();
-        login1.clickAbout();
+
+        TestNG testNG = new TestNG();
+
+        List<String> suites = Lists.newArrayList();
+        suites.add("./suites/testng.xml");
+        testNG.setTestSuites(suites);
+
+        testNG.run();
+
+    }
+
+    //public static void main(String[] args) {
+//        System.setProperty("webdriver.chrome.driver", "C:/Users/huy/Desktop/autohuy/chromedriver_win32/chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
+//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//        Login login1 = new Login(driver);
+//        login1.Goto();
+//        login1.Changelang();
+//        login1.clickAbout();
+//        login1.clickBettingRules();
+//        login1.clickPrivacyPolicy();
+//        login1.clickResponsibleGambling();
+
+
+        //login1.clickBettingRules;
         //driver.getWindowHandles();
         // count tabs
-        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
-
-        About aboutUsPage = new About(driver);
-
-        String title = aboutUsPage.gettitle();
-        boolean result = title.equals("About Us");
-        Assert.assertTrue("About don't display",result);
+//        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
+//        driver.switchTo().window(tabs.get(1));
+//
+//        About aboutUsPage = new About(driver);
+//        BettingRules bettingRules = new BettingRules(driver);
+//
+//        String title = bettingRules.gettitle3();
+//        boolean result = title.equals("Responsible Gaming");
+//        Assert.assertTrue("Responsible Gaming don't display",result);
 
         // login1.enUserName()
         // login1.enPassword();
@@ -78,4 +99,4 @@ public class Main {
 //        }
 //        driver.quit();
     }
-}
+

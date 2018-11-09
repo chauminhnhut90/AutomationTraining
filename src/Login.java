@@ -22,6 +22,14 @@ public class Login {
     @FindBy(xpath = "//span[text()=\"About Us\"]")
     public WebElement element4;
 
+    @FindBy (xpath = "//span[text()=\"Betting Rules\"]")
+    public WebElement element5;
+
+    @FindBy (xpath = "//span[text()=\"Privacy Policy\"]")
+    public WebElement element6;
+
+    @FindBy (xpath = "//span[text()=\"Responsible Gambling\"]")
+    public WebElement element7;
 
     WebDriver driver;
 
@@ -41,14 +49,14 @@ public class Login {
         select.selectByValue("enGB");
     }
 
-    public void enUserName() {
+    public void enUserName(String user) {
         //  WebElement element1 = ((ChromeDriver) driver).findElementByXPath("//input [@placeholder='USERNAME']");
-        element1.sendKeys("huy0011222");
+        element1.sendKeys(user);
     }
 
-    public void enPassword() {
+    public void enPassword(String pass) {
         //  WebElement element2 = ((ChromeDriver) driver).findElementByXPath("//input [@placeholder='PASSWORD']");
-        element2.sendKeys("123456789");
+        element2.sendKeys(pass);
     }
 
     // Tim` About
@@ -67,4 +75,20 @@ public class Login {
         } catch (Exception ex) {
         }
     }
+
+    //Click link betting rules
+    public void clickBettingRules (){
+        element5.click();
+    }
+
+    //Click link privacy policy
+    public void clickPrivacyPolicy (){
+        element6.click();
+    }
+
+    //Click link responsible gambling
+    public void clickResponsibleGambling (){
+        element7.click();
+    }
+
 }
