@@ -49,12 +49,12 @@ public class LoginPage {
         lang.selectByValue("enGB");
     }
 
-    public void InputUsername(){
-        usernameTxt.sendKeys("anh30000000");
+    public void InputUsername(String user){
+        usernameTxt.sendKeys(user);
     }
 
-    public void InputPassword(){
-        passwordTxt.sendKeys("789987");
+    public void InputPassword(String pass){
+        passwordTxt.sendKeys(pass);
     }
 
     public void ClickSignIn(){
