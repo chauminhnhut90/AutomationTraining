@@ -1,8 +1,10 @@
 package src;
 
+import org.junit.Ignore;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -12,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 @SuppressWarnings("all")
 public class TestNGScript {
 
-    @Test (priority = 4)
+    @Test (enabled = false)
     public void verifyAboutUsPage(){
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\Setup Automation\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -37,7 +39,8 @@ public class TestNGScript {
 
     }
 
-    @Test (priority =3)
+
+    @Test (enabled = false )
     public void verifyBettingRule(){
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\Setup Automation\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -62,7 +65,8 @@ public class TestNGScript {
 
     }
 
-    @Test (priority = 2 )
+
+    @Test (enabled = false)
     public void verifyPrivacyPolicy(){
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\Setup Automation\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -87,7 +91,8 @@ public class TestNGScript {
 
     }
 
-    @Test (priority = 1)
+
+    @Test (enabled = false )
     public void verifyResponsibleGambling(){
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\Setup Automation\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -111,5 +116,42 @@ public class TestNGScript {
 
 
     }
+
+
+    @Test(dataProvider = "test1")
+    public void verifyLogin( String userName, String passWord){
+
+    System.out.println(userName + ":" + passWord);
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\Setup Automation\\chromedriver.exe");
+    WebDriver driver = new ChromeDriver();
+    //   driver.get("http://stag.7sports.co");
+    driver.manage().window().maximize();
+    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); //tìm & đợi trong 30s
+
+    //B1: Navigate to Login page
+     LoginPage loginPage = new LoginPage(driver);
+     loginPage.goTo();
+     loginPage.selectlanguage();
+     loginPage.enterUser(userName);
+     loginPage.enterPass(passWord);
+     loginPage.clickLogin();
+
+
+    // B2: Enter User/Pass
+
+    //B3: Click Login
+
+
+    }
+
+    @DataProvider(name = "test1",parallel = true)
+    public Object[][] createData1() {
+        return new Object[][] {
+                { "QCGIANG003", "654321"},
+                { "QCGIANG001", "123456"},
+        };
+    }
+
+
 
 }

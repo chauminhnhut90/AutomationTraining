@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="methods" data-provider-thread-count="2">
+  <test name="Nopackage(failed)" parallel="methods">
+    <classes>
+      <class name="src.TestNGScript">
+        <methods>
+          <include name="verifyBettingRule"/>
+          <include name="verifyAboutUsPage"/>
+          <include name="verifyPrivacyPolicy"/>
+        </methods>
+      </class> <!-- src.TestNGScript -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

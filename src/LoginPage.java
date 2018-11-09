@@ -50,16 +50,16 @@ public class LoginPage {
     }
 
 
-    public void enterUser() {
+    public void enterUser( String userName) {
        // WebElement user = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='USERNAME']");
-        user.sendKeys("QCGIANG001");
+        user.sendKeys(userName);
 
     }
 
 
-    public void enterPass(){
+    public void enterPass( String pWord){
       //  WebElement pass= ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='PASSWORD']");
-        pass.sendKeys("123456");
+        pass.sendKeys(pWord);
 
     }
 
