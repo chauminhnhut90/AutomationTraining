@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
-<suite name="Suite1" parallel="methods" thread-count="4" >
+<suite name="Suite1" parallel="methods" thread-count="4"  data-provider-thread-count="2">
       //parallel="methods" chay song song
       //thread-count="2" muon chay song song bao nhieu case, nhieu hay it nen tuy thuoc vao resource, mang, CPU
   <test name="Nopackage" >

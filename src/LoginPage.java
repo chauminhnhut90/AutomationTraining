@@ -53,17 +53,19 @@ public class LoginPage {
         select.selectByValue("enGB");
     }
 
-    public void enter_username() {
+    public void enter_username(String user) {
         // find element
         // WebElement element = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='USERNAME']");
         //Do action
-        username.sendKeys("salem0000000");
+       // username.sendKeys("salem0000000"); gang cung
+        username.sendKeys(user);
 
     }
 
-    public void enter_password() {
+    public void enter_password(String pass) {
         // WebElement password = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='PASSWORD']");
-        password.sendKeys("123456");
+        //password.sendKeys("123456"); day la gang cung
+        password.sendKeys(pass);
     }
 
     public void click_login() {

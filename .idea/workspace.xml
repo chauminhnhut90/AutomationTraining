@@ -3,8 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="85d13f4a-9a60-4f2b-a416-236470348cbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/AutomationTraining/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/AutomationTraining/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/AutomationTraining/TestNGScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/AutomationTraining/TestNGScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestNGScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestNGScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suites/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite1/Nopackage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/Nopackage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite1/Nopackage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/Nopackage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNGScript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNGScript.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,30 +42,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="7" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="9" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="9" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2519" />
-          <entry key="xml" value="198" />
+          <entry key="java" value="2954" />
+          <entry key="xml" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2519" />
-          <entry key="XML" value="198" />
+          <entry key="JAVA" value="2954" />
+          <entry key="XML" value="202" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +75,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="721">
+              <caret line="68" column="40" selection-start-line="62" selection-start-column="9" selection-end-line="68" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +99,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestNGScript.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="173" column="8" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+            <state relative-caret-position="355">
+              <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
               <folding>
-                <element signature="method#verifyAboutUsPage#0;class#TestNGScript#0" />
-                <element signature="e#1481#1526#0" />
                 <element signature="method#verifyBettingRulePage#0;class#TestNGScript#0" />
                 <element signature="method#verifyPrivacyPolicyPage#0;class#TestNGScript#0" />
                 <element signature="method#verifyResponsibleGamblingPage#0;class#TestNGScript#0" />
@@ -89,87 +114,16 @@
         <entry file="file://$PROJECT_DIR$/suites/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-output/index.html">
+        <entry file="jar://$PROJECT_DIR$/lib/selenium-html-runner-3.4.0.jar!/org/testng/internal/Invoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AboutUs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BettingRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrivacyPolicy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ResponsibleGambling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="48" selection-start-line="8" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="779">
+              <caret line="506" selection-start-line="506" selection-end-line="506" />
             </state>
           </provider>
         </entry>
@@ -189,12 +143,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/ResponsibleGambling.java" />
         <option value="$PROJECT_DIR$/src/PrivacyPolicy.java" />
         <option value="$PROJECT_DIR$/src/BettingRule.java" />
         <option value="$PROJECT_DIR$/src/AboutUs.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/LoginPage.java" />
         <option value="$PROJECT_DIR$/suites/testng.xml" />
         <option value="$PROJECT_DIR$/src/TestNGScript.java" />
       </list>
@@ -206,7 +160,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -254,11 +208,6 @@
               <item name="AutomationTraining" type="462c0819:PsiDirectoryNode" />
               <item name="suites" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -269,7 +218,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541574472329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541747382945" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,11 +269,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGScript.verifyPrivacyPolicyPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGScript.verifyLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTraining" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestNGScript" />
-      <option name="METHOD_NAME" value="verifyPrivacyPolicyPage" />
+      <option name="METHOD_NAME" value="verifyLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -346,18 +295,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.TestNGScript" />
-      <item itemvalue="TestNG.TestNGScript.verifyPrivacyPolicyPage" />
       <item itemvalue="TestNG.TestNGScript.verifyResponsibleGamblingPage" />
       <item itemvalue="TestNG.TestNGScript.verifyAboutUsPage" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.TestNGScript.verifyLogin" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.TestNGScript.verifyLogin" />
         <item itemvalue="TestNG.TestNGScript" />
         <item itemvalue="TestNG.TestNGScript.verifyResponsibleGamblingPage" />
         <item itemvalue="TestNG.TestNGScript.verifyAboutUsPage" />
-        <item itemvalue="TestNG.TestNGScript.verifyPrivacyPolicyPage" />
       </list>
     </recent_temporary>
   </component>
@@ -381,21 +330,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNGScript_verifyResponsibleGamblingPage - 2018.11.06 at 18h 23m 44s.xml">
-      <configuration name="TestNGScript.verifyResponsibleGamblingPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNGScript_verifyResponsibleGamblingPage - 2018.11.06 at 18h 31m 59s.xml">
-      <configuration name="TestNGScript.verifyResponsibleGamblingPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNGScript_verifyResponsibleGamblingPage - 2018.11.06 at 18h 33m 47s.xml">
-      <configuration name="TestNGScript.verifyResponsibleGamblingPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNGScript_verifyResponsibleGamblingPage - 2018.11.06 at 18h 37m 18s.xml">
-      <configuration name="TestNGScript.verifyResponsibleGamblingPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNGScript_verifyAboutUsPage - 2018.11.06 at 18h 39m 08s.xml">
-      <configuration name="TestNGScript.verifyAboutUsPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestNGScript - 2018.11.06 at 18h 40m 24s.xml">
       <configuration name="TestNGScript" configurationId="TestNG" />
     </history-entry>
@@ -411,15 +345,30 @@
     <history-entry file="TestNGScript - 2018.11.07 at 13h 24m 55s.xml">
       <configuration name="TestNGScript" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestNGScript_verifyLogin - 2018.11.09 at 13h 30m 59s.xml">
+      <configuration name="TestNGScript.verifyLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNGScript_verifyLogin - 2018.11.09 at 13h 36m 56s.xml">
+      <configuration name="TestNGScript.verifyLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNGScript_verifyLogin - 2018.11.09 at 13h 49m 02s.xml">
+      <configuration name="TestNGScript.verifyLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNGScript_verifyLogin - 2018.11.09 at 13h 49m 54s.xml">
+      <configuration name="TestNGScript.verifyLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNGScript_verifyLogin - 2018.11.09 at 14h 01m 48s.xml">
+      <configuration name="TestNGScript.verifyLogin" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19669000" />
+    <option name="totallyTimeSpent" value="22880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +386,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32817337" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3273906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -455,14 +404,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestNGScript.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-html-runner-3.4.0.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="63" column="92" lean-forward="true" selection-start-line="63" selection-start-column="92" selection-end-line="63" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AboutUs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -512,33 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suites/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -546,13 +473,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="68" column="40" selection-start-line="62" selection-start-column="9" selection-end-line="68" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/selenium-html-runner-3.4.0.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="506" selection-start-line="506" selection-end-line="506" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suites/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestNGScript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="173" column="8" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+        <state relative-caret-position="355">
+          <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
           <folding>
-            <element signature="method#verifyAboutUsPage#0;class#TestNGScript#0" />
-            <element signature="e#1481#1526#0" />
             <element signature="method#verifyBettingRulePage#0;class#TestNGScript#0" />
             <element signature="method#verifyPrivacyPolicyPage#0;class#TestNGScript#0" />
             <element signature="method#verifyResponsibleGamblingPage#0;class#TestNGScript#0" />
