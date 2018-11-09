@@ -2,6 +2,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 @SuppressWarnings("all")
 public class TestNGScript {
 
-    @Test
+    @Test(enabled = false)
     public void verifyAboutUsPage() {
         // SetUp Chrome drive Path
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
@@ -41,7 +42,7 @@ public class TestNGScript {
         Assert.assertTrue(result, "Do not display ABOUT US title");
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyBettingRulesPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
@@ -64,7 +65,7 @@ public class TestNGScript {
         Assert.assertTrue(result, "Do not display BETTING RULES title");
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPrivatePolicyPage() {
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
 
@@ -87,7 +88,7 @@ public class TestNGScript {
         Assert.assertTrue(result, "Do not display PRIVATE POLICY title");
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyResponsibleGamblingPage() {
 
         System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
@@ -110,5 +111,37 @@ public class TestNGScript {
         driver.quit();
         Assert.assertTrue(result, "Do not display RESPONSIBLE GAMING title");
     }
+
+    @Test(dataProvider = "test1")
+    public void verifyLogin(String userName, String passWord) {
+        System.out.println(userName + " : " + passWord);
+
+        System.setProperty("webdriver.chrome.driver", "/Users/macbook/Documents/KolabsLLC/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1600, 900));
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+        // B1: Navigate to login page
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.goTo();
+        loginPage.selectLanguage();
+        loginPage.enterUserName(userName);
+        loginPage.enterPW(passWord);
+        loginPage.clickLogin();
+
+        // B2: Enter User, PW
+
+        // B3: Click login button
+    }
+
+    @DataProvider(name = "test1", parallel = true)
+    public Object[][] createData1() {
+        return new Object[][]{
+                {"qcAA02000", "12345678"},
+                {"qcAA03000", "12345678"},
+                {"qcAA02000", "12345678"}
+        };
+    }
+
 
 }

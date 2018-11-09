@@ -48,12 +48,12 @@ public class LoginPage {
         select.selectByValue("enGB");
     }
 
-    public void enterUserName() {
-        userName.sendKeys("qcAA03000");
+    public void enterUserName(String user) {
+        userName.sendKeys(user);
     }
 
-    public void enterPW() {
-        passWord.sendKeys("12345678");
+    public void enterPW(String pw) {
+        passWord.sendKeys(pw);
     }
 
     public void clickLogin() {
